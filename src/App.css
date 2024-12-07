@@ -2,6 +2,24 @@
     --ball_size:200px;
     --data_circle_size:200px;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4faadb85; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1ba3f8; 
+  }
 .nav-glass{
     background: rgba( 73, 64, 64, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -104,12 +122,27 @@
     min-height: 50px;
 }
 
+.data-circles-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:600px){
+    .data-circles-parent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+}
+
 .datacircle{
     height: var(--data_circle_size);
     width: var(--data_circle_size);
-    position: absolute;
-    top:10%;
-    left:10%;
+    position: relative;
+    /* top:10%; */
+    /* left:10%; */
     /* border-radius: 50%; */
     /* border: 2px solid white; */
 }
@@ -151,7 +184,7 @@
     text-align: center;
 }
 
-.datacircle2{
+/* .datacircle2{
     top:calc(10% + var(--data_circle_size));
     left:30%;
 }
@@ -162,7 +195,7 @@
 .datacircle3{
     top:calc(10% + 2 * var(--data_circle_size));
     left:10%;
-}
+} */
 .before-startups-data{
     padding-top: 80px;
     padding-bottom:20px;

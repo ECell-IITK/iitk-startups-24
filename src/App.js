@@ -66,8 +66,8 @@ const style = {
   maxHeight:"60vh",
   overflowY:"scroll",
   bgcolor: 'background.paper',
-  border: '2px solid #000',
   boxShadow: 24,
+  borderRadius:"10px",
   margin:"10px",
   p: 4,
 };
@@ -119,7 +119,7 @@ function App() {
       ((location === "Any" || location === "") ? 1 : item.Location.toLowerCase() === location.toLowerCase()) &&
       ((companyStage === "Any" || companyStage === "") ? 1 : item.CompanyStage.toLowerCase() === companyStage.toLowerCase()) &&
       ((searchText === "") ? 1 : item.Name.toLowerCase().includes(searchText.toLowerCase()))
-    ).slice(0,50))
+    ).slice(0,100))
 
     // if ((unicornStatus === "Any" || unicornStatus==="") && (location === "Any" || location=== "") && (companyStage==="Any" || companyStage==="")) {
     //   setResult(data.slice(0, 50));
@@ -168,6 +168,7 @@ function App() {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        style={{border:"0px"}}
         
       >
         <Box sx={style}>
@@ -326,7 +327,8 @@ function App() {
           </div>
         </div>
         <div
-          style={{ maxWidth: "100vw", position: "relative", height: "100vh" }}
+          style={{ maxWidth: "100vw", position: "relative"}}
+          className="data-circles-parent"
         >
           <div className="datacircle datacircle1">
             <div></div>
@@ -336,12 +338,12 @@ function App() {
           <div className="datacircle datacircle2">
             <div></div>
             <div></div>
-            <div className="text-in-data-circle">1300+ Startups</div>
+            <div className="text-in-data-circle">14 Unicorns</div>
           </div>
           <div className="datacircle datacircle3">
             <div></div>
             <div></div>
-            <div className="text-in-data-circle">1300+ Startups</div>
+            <div className="text-in-data-circle">29+ Soonicorn</div>
           </div>
 
           {/* <Spline
