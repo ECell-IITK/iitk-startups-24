@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/iitk-startups-24/static/css/main.499e0f5b.css",
-    "main.js": "/iitk-startups-24/static/js/main.a0c4477d.js",
-    "static/js/208.4a11bdcf.chunk.js": "/iitk-startups-24/static/js/208.4a11bdcf.chunk.js",
+    "main.css": "/iitk-startups-24/static/css/main.0631bc44.css",
+    "main.js": "/iitk-startups-24/static/js/main.1b641158.js",
+    "static/js/208.0475396f.chunk.js": "/iitk-startups-24/static/js/208.0475396f.chunk.js",
     "static/js/293.7a1a4957.chunk.js": "/iitk-startups-24/static/js/293.7a1a4957.chunk.js",
-    "static/js/917.e2da7b7d.chunk.js": "/iitk-startups-24/static/js/917.e2da7b7d.chunk.js",
-    "static/js/516.fc7e4985.chunk.js": "/iitk-startups-24/static/js/516.fc7e4985.chunk.js",
+    "static/js/917.75b069b8.chunk.js": "/iitk-startups-24/static/js/917.75b069b8.chunk.js",
+    "static/js/516.895dd243.chunk.js": "/iitk-startups-24/static/js/516.895dd243.chunk.js",
     "static/js/519.17051f52.chunk.js": "/iitk-startups-24/static/js/519.17051f52.chunk.js",
-    "static/js/946.2953dc18.chunk.js": "/iitk-startups-24/static/js/946.2953dc18.chunk.js",
-    "static/js/160.45fc6649.chunk.js": "/iitk-startups-24/static/js/160.45fc6649.chunk.js",
-    "static/js/23.a0bda736.chunk.js": "/iitk-startups-24/static/js/23.a0bda736.chunk.js",
+    "static/js/946.997636b0.chunk.js": "/iitk-startups-24/static/js/946.997636b0.chunk.js",
+    "static/js/160.2a7f38d2.chunk.js": "/iitk-startups-24/static/js/160.2a7f38d2.chunk.js",
+    "static/js/23.e38dc1a4.chunk.js": "/iitk-startups-24/static/js/23.e38dc1a4.chunk.js",
     "index.html": "/iitk-startups-24/index.html",
-    "main.499e0f5b.css.map": "/iitk-startups-24/static/css/main.499e0f5b.css.map",
-    "main.a0c4477d.js.map": "/iitk-startups-24/static/js/main.a0c4477d.js.map",
-    "208.4a11bdcf.chunk.js.map": "/iitk-startups-24/static/js/208.4a11bdcf.chunk.js.map",
+    "main.0631bc44.css.map": "/iitk-startups-24/static/css/main.0631bc44.css.map",
+    "main.1b641158.js.map": "/iitk-startups-24/static/js/main.1b641158.js.map",
+    "208.0475396f.chunk.js.map": "/iitk-startups-24/static/js/208.0475396f.chunk.js.map",
     "293.7a1a4957.chunk.js.map": "/iitk-startups-24/static/js/293.7a1a4957.chunk.js.map",
-    "917.e2da7b7d.chunk.js.map": "/iitk-startups-24/static/js/917.e2da7b7d.chunk.js.map",
-    "516.fc7e4985.chunk.js.map": "/iitk-startups-24/static/js/516.fc7e4985.chunk.js.map",
+    "917.75b069b8.chunk.js.map": "/iitk-startups-24/static/js/917.75b069b8.chunk.js.map",
+    "516.895dd243.chunk.js.map": "/iitk-startups-24/static/js/516.895dd243.chunk.js.map",
     "519.17051f52.chunk.js.map": "/iitk-startups-24/static/js/519.17051f52.chunk.js.map",
-    "946.2953dc18.chunk.js.map": "/iitk-startups-24/static/js/946.2953dc18.chunk.js.map",
-    "160.45fc6649.chunk.js.map": "/iitk-startups-24/static/js/160.45fc6649.chunk.js.map",
-    "23.a0bda736.chunk.js.map": "/iitk-startups-24/static/js/23.a0bda736.chunk.js.map"
+    "946.997636b0.chunk.js.map": "/iitk-startups-24/static/js/946.997636b0.chunk.js.map",
+    "160.2a7f38d2.chunk.js.map": "/iitk-startups-24/static/js/160.2a7f38d2.chunk.js.map",
+    "23.e38dc1a4.chunk.js.map": "/iitk-startups-24/static/js/23.e38dc1a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.499e0f5b.css",
-    "static/js/main.a0c4477d.js"
+    "static/css/main.0631bc44.css",
+    "static/js/main.1b641158.js"
   ]
 }
